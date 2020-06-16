@@ -1,11 +1,10 @@
 {
-  "name": "@docusaurus/plugin-client-redirects",
+  "name": "@docusaurus/plugin-debug",
   "version": "2.0.0-alpha.56",
-  "description": "Client redirects plugin for Docusaurus",
+  "description": "Debug plugin for Docusaurus",
   "main": "lib/index.js",
   "scripts": {
-    "tsc": "tsc",
-    "watch": "tsc --watch"
+    "tsc": "tsc"
   },
   "publishConfig": {
     "access": "public"
@@ -13,10 +12,7 @@
   "license": "MIT",
   "dependencies": {
     "@docusaurus/types": "^2.0.0-alpha.56",
-    "@docusaurus/utils": "^2.0.0-alpha.56",
-    "eta": "^1.1.1",
-    "globby": "^10.0.1",
-    "yup": "^0.29.0"
+    "@docusaurus/utils": "^2.0.0-alpha.56"
   },
   "peerDependencies": {
     "@docusaurus/core": "^2.0.0",
@@ -24,9 +20,6 @@
     "react-dom": "^16.8.4"
   },
   "engines": {
-    "node": ">=10.9.0"
-  },
-  "devDependencies": {
-    "@types/yup": "^0.29.0"
+    "node": ">=10.15.1"
   }
 }

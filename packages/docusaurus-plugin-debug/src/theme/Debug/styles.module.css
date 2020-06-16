@@ -5,12 +5,7 @@
  * LICENSE file in the root directory of this source tree.
  */
 
-import {useContext} from 'react';
-
-import ThemeContext from '@theme/ThemeContext';
-
-function useThemeContext() {
-  return useContext(ThemeContext);
+.Container {
+  display: flex;
+  margin: 1em;
 }
-
-export default useThemeContext;
